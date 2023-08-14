@@ -70,11 +70,9 @@ About).
 
 **Screenshot of Project**
 
-![](vertopal_48ba47663bb74bd2b3eb0c59c55e7385/media/image1.png){width="6.268055555555556in"
-height="2.94375in"}
+![First](1st.png "Home Screen")
 
-![](vertopal_48ba47663bb74bd2b3eb0c59c55e7385/media/image2.png){width="6.268055555555556in"
-height="2.865972222222222in"}
+![](2nd.png "List of Homes")
 
 **\## Contact**
 
