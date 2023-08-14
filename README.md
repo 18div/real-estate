@@ -68,6 +68,10 @@ About).
 
 \- \`src/App.css\`: Contains additional styles for the app.
 
+## Hosted URL
+
+https://real-estate-buisness.vercel.app/
+
 ## Screenshot of Project
 
 ![First](1st.png "Home Screen")
