@@ -1,4 +1,4 @@
-**\# ELIXIR Real Estate Website**
+# ELIXIR Real Estate Website
 
 Welcome to the ELIXIR Real Estate website, your trusted partner in the
 world of real estate. This project showcases a modern and user-friendly
@@ -6,7 +6,7 @@ website for browsing and exploring various properties. Users can search
 for properties based on different criteria, view property details, and
 even get in touch with the team.
 
-**\## Features**
+## Features
 
 \- Browse through a variety of properties with detailed information.
 
@@ -23,7 +23,7 @@ information.
 
 \- Stay connected with the team through social media links.
 
-**\## Tech Stack**
+## Tech Stack
 
 \- React: Frontend library for building user interfaces.
 
@@ -35,7 +35,7 @@ information.
 
 \- FontAwesome Icons: Icon library for adding icons to the UI.
 
-**\## Setup**
+## Setup
 
 1\. Clone the repository to your local machine.
 
@@ -46,7 +46,7 @@ information.
 4\. Open your browser and navigate to \`http://localhost:3000\` to view
 the app.
 
-**\## Project Structure**
+## Project Structure
 
 The project is organized as follows:
 
@@ -68,13 +68,13 @@ About).
 
 \- \`src/App.css\`: Contains additional styles for the app.
 
-**Screenshot of Project**
+## Screenshot of Project
 
 ![First](1st.png "Home Screen")
 
 ![](2nd.png "List of Homes")
 
-**\## Contact**
+## Contact
 
 For inquiries, questions, or collaboration opportunities, please contact
 our dedicated team at

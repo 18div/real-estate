@@ -82,7 +82,7 @@ const HomePage = () => {
         <p style={{color:'black', paddingBottom: '10px'}}>Price Range</p>
         <Slider
             range
-            defaultValue={65000000}
+            defaultValue={[0, 65000000]}
             min={0}
             max={65000000}
             step={10000000}
