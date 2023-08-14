@@ -18,6 +18,7 @@ background:transparent;
 padding:1rem 2rem;
 margin: 0px;
 width:94%;
+margin-left:50px;
 top:0;
 `;
 
@@ -134,4 +135,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useState,useEffect} from 'react';
 import styled from 'styled-components';
 import PropertyDetail from './PropertyDetail';
 import HomeCard from './HomeCard'; 
@@ -7,22 +7,31 @@ import 'rc-slider/assets/index.css';
 import homesData from './homeData';
 
 
+
 const SliderContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-right: 20px;
-  width: 87%;
+  width: 50%;
   margin: auto;
+  color:'black';
+  .rc-slider-track {
+  background-color: black; 
+  .rc-slider-handle {
+  border-color: black; 
+}
+}
 `;
 
 const PriceRangeBox = styled.div`
   border: 1px solid #ccc;
-  border-radius: 9px;
-  padding: 25px;
+  border-radius: 200px;
+  padding: 14px;
   background-color: #fff;
   top:80px;
   width:  100%;
+  color:'black';
 `;
 const HomePageContainer = styled.div`
   display: flex;
@@ -48,6 +57,9 @@ const SearchInput = styled.input`
   margin-bottom: 20px;
   justify-content:'center';
   margin-left:36%;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start;
 `;
 
 const HomePage = () => {
@@ -59,6 +71,10 @@ const HomePage = () => {
       home.country.toLowerCase().includes(searchTerm.toLowerCase()) &&
       home.price >= priceRange[0] && home.price <= priceRange[1]
     );
+
+    useEffect(() => {
+      setPriceRange([0, 65000000]);
+    }, []);
 
     const handleCardClick = (property) => {
       setSelectedProperty(property);
@@ -82,7 +98,7 @@ const HomePage = () => {
         <p style={{color:'black', paddingBottom: '10px'}}>Price Range</p>
         <Slider
             range
-            defaultValue={[0, 65000000]}
+            defaultValue={[0 ,65000000]}
             min={0}
             max={65000000}
             step={10000000}
@@ -90,8 +106,8 @@ const HomePage = () => {
             onChange={(value) => setPriceRange(value)}
         />
         <div style={{display:'flex', justifyContent:"space-between"}}>
-        <p>Min Price: {priceRange[0]}</p>
-        <p>Max Price: {priceRange[1]}</p>
+        <p style={{fontSize: '12px'}}>Min Price: {priceRange[0]}</p>
+        <p style={{fontSize: '12px'}}>Max Price: {priceRange[1]}</p>
         </div>
         </PriceRangeBox>
         </SliderContainer>

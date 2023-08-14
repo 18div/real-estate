@@ -73,6 +73,7 @@ About).
 ![First](1st.png "Home Screen")
 
 ![](2nd.png "List of Homes")
+![](3rd.png "Property Details")
 
 ## Contact
 

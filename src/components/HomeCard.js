@@ -16,7 +16,7 @@ const CardContainer = styled.div`
         border: 2px solid blue;
       `
       : `
-        opacity: 0.7;
+        opacity: 0.9;
       `}
 
   &:hover {
